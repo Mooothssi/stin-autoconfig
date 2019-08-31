@@ -1,0 +1,2 @@
+## STIN-AutoConfig
+
