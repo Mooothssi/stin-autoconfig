@@ -12,3 +12,5 @@ wmic bios get serialnumber
 set /p NUM="STIN Number of this machine : "
 set CURR_USER=STIN-%NUM%
 echo %CURR_USER%
+echo "Adding user... %CURR_USER%"
+net user %CURR_USER% %CURR_PASS% /add
